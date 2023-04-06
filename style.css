@@ -1,0 +1,222 @@
+body {
+    background-color: #dff5e0;
+        display: table-cell;
+        vertical-align: middle;
+
+  }
+  html {
+    display: table;
+    margin: auto;
+}
+  h1 {
+    color: #538f63;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    padding: 15px;
+  }
+  
+  p { color: #538f63;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .p1 { color: #538f63;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    padding-top: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .p2{color: #538f63;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 0px;
+    margin:auto
+  }
+  ul {
+    list-style-position: inside;
+    text-align: center;
+    margin: 0;}
+    span {
+        position: relative;
+        left: -10px;
+    }
+.list {text-align: center;}
+  .been {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+button {padding:7px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1e18;
+    color: #fff763;
+    border-color: #fff763;
+    border-radius: 25px;
+    border: 3.5px solid #fff763;
+    padding: 15px;
+    
+  }
+  button:hover{ color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+.navbar {
+    background-color: #1d1e18;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 7%;
+    width: 100%;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;     }
+ 
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: Bold;
+  }
+  
+ 
+  .dropdown {
+    background-color: #1d1e18;
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+ 
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border-style: hidden;
+    
+    color: #fff763;
+    padding: 14px 16px;
+    background-color: #1d1e18;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1d1e18;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #fff763;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: left 6px;
+  }
+  
+  .dropdown-content a:hover {
+    color: #ffffff;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  * {box-sizing:border-box}
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .mySlides {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0%;
+
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff763;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(83, 143, 99, 0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 80%;
+    text-align: center;
+  }
+  
+ 
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
